@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1737F7CC303B3E28FBC446BD /* Pods_IOTProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E73447A336355AFAC9C9ADB4 /* Pods_IOTProject.framework */; };
 		DF42AC1429B8432F00F26E02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF42AC1329B8432F00F26E02 /* AppDelegate.swift */; };
 		DF42AC1629B8432F00F26E02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF42AC1529B8432F00F26E02 /* SceneDelegate.swift */; };
 		DF42AC1829B8432F00F26E02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF42AC1729B8432F00F26E02 /* ViewController.swift */; };
 		DF42AC1B29B8432F00F26E02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF42AC1929B8432F00F26E02 /* Main.storyboard */; };
 		DF42AC1D29B8432F00F26E02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF42AC1C29B8432F00F26E02 /* Assets.xcassets */; };
 		DF42AC2029B8432F00F26E02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF42AC1E29B8432F00F26E02 /* LaunchScreen.storyboard */; };
+		DF7EFF5C29C35660004255D9 /* MQTTDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7EFF5B29C35660004255D9 /* MQTTDelegate.swift */; };
+		DF7EFF6029C358A4004255D9 /* TempData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7EFF5F29C358A4004255D9 /* TempData.swift */; };
+		DF7EFF6229C358B0004255D9 /* TempModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7EFF6129C358B0004255D9 /* TempModel.swift */; };
+		DF7EFF6429C358DB004255D9 /* TempManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7EFF6329C358DB004255D9 /* TempManager.swift */; };
+		DF7EFF6929C3621A004255D9 /* TempDiary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7EFF6829C3621A004255D9 /* TempDiary.swift */; };
+		DF7EFF6D29C37D97004255D9 /* LuxDiary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7EFF6C29C37D97004255D9 /* LuxDiary.swift */; };
+		DF7EFF7029C37EC3004255D9 /* HumidManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7EFF6F29C37EC3004255D9 /* HumidManager.swift */; };
+		DF7EFF7229C37ED7004255D9 /* HumidData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7EFF7129C37ED7004255D9 /* HumidData.swift */; };
+		DF7EFF7429C37EE3004255D9 /* HumidModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7EFF7329C37EE3004255D9 /* HumidModel.swift */; };
+		DF7EFF7729C3837B004255D9 /* HumidDiary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7EFF7629C3837B004255D9 /* HumidDiary.swift */; };
+		DF7EFF7A29C385D6004255D9 /* LuxManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7EFF7929C385D6004255D9 /* LuxManager.swift */; };
+		DF7EFF7C29C385E4004255D9 /* LuxData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7EFF7B29C385E4004255D9 /* LuxData.swift */; };
+		DF7EFF7E29C385EC004255D9 /* LuxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7EFF7D29C385EC004255D9 /* LuxModel.swift */; };
+		DFC50AA929D2C8AC00DFCB05 /* ColorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC50AA829D2C8AC00DFCB05 /* ColorController.swift */; };
+		DFCE090429FAB3EC00524161 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCE090329FAB3EC00524161 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F933593C9D704E27A42902B /* Pods-IOTProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOTProject.release.xcconfig"; path = "Target Support Files/Pods-IOTProject/Pods-IOTProject.release.xcconfig"; sourceTree = "<group>"; };
+		D0BF5C8E0235F0ADE071C26F /* Pods-IOTProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOTProject.debug.xcconfig"; path = "Target Support Files/Pods-IOTProject/Pods-IOTProject.debug.xcconfig"; sourceTree = "<group>"; };
 		DF42AC1029B8432F00F26E02 /* IOTProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOTProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF42AC1329B8432F00F26E02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF42AC1529B8432F00F26E02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +42,22 @@
 		DF42AC1C29B8432F00F26E02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF42AC1F29B8432F00F26E02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF42AC2129B8432F00F26E02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7EFF5B29C35660004255D9 /* MQTTDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTDelegate.swift; sourceTree = "<group>"; };
+		DF7EFF5F29C358A4004255D9 /* TempData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempData.swift; sourceTree = "<group>"; };
+		DF7EFF6129C358B0004255D9 /* TempModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempModel.swift; sourceTree = "<group>"; };
+		DF7EFF6329C358DB004255D9 /* TempManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempManager.swift; sourceTree = "<group>"; };
+		DF7EFF6829C3621A004255D9 /* TempDiary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempDiary.swift; sourceTree = "<group>"; };
+		DF7EFF6C29C37D97004255D9 /* LuxDiary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuxDiary.swift; sourceTree = "<group>"; };
+		DF7EFF6F29C37EC3004255D9 /* HumidManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumidManager.swift; sourceTree = "<group>"; };
+		DF7EFF7129C37ED7004255D9 /* HumidData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumidData.swift; sourceTree = "<group>"; };
+		DF7EFF7329C37EE3004255D9 /* HumidModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumidModel.swift; sourceTree = "<group>"; };
+		DF7EFF7629C3837B004255D9 /* HumidDiary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumidDiary.swift; sourceTree = "<group>"; };
+		DF7EFF7929C385D6004255D9 /* LuxManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuxManager.swift; sourceTree = "<group>"; };
+		DF7EFF7B29C385E4004255D9 /* LuxData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuxData.swift; sourceTree = "<group>"; };
+		DF7EFF7D29C385EC004255D9 /* LuxModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuxModel.swift; sourceTree = "<group>"; };
+		DFC50AA829D2C8AC00DFCB05 /* ColorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorController.swift; sourceTree = "<group>"; };
+		DFCE090329FAB3EC00524161 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		E73447A336355AFAC9C9ADB4 /* Pods_IOTProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOTProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1737F7CC303B3E28FBC446BD /* Pods_IOTProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A627E78FD7ED541D6914AEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E73447A336355AFAC9C9ADB4 /* Pods_IOTProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1F90ABD3592D308A502DA5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0BF5C8E0235F0ADE071C26F /* Pods-IOTProject.debug.xcconfig */,
+				7F933593C9D704E27A42902B /* Pods-IOTProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DF42AC0729B8432F00F26E02 = {
 			isa = PBXGroup;
 			children = (
 				DF42AC1229B8432F00F26E02 /* IOTProject */,
 				DF42AC1129B8432F00F26E02 /* Products */,
+				A1F90ABD3592D308A502DA5A /* Pods */,
+				8A627E78FD7ED541D6914AEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +112,76 @@
 			children = (
 				DF42AC1329B8432F00F26E02 /* AppDelegate.swift */,
 				DF42AC1529B8432F00F26E02 /* SceneDelegate.swift */,
-				DF42AC1729B8432F00F26E02 /* ViewController.swift */,
-				DF42AC1929B8432F00F26E02 /* Main.storyboard */,
+				DF7EFF5A29C355F8004255D9 /* Model  */,
+				DF7EFF5929C355E9004255D9 /* VIew */,
+				DF7EFF5829C355DE004255D9 /* Controller */,
 				DF42AC1C29B8432F00F26E02 /* Assets.xcassets */,
 				DF42AC1E29B8432F00F26E02 /* LaunchScreen.storyboard */,
 				DF42AC2129B8432F00F26E02 /* Info.plist */,
 			);
 			path = IOTProject;
+			sourceTree = "<group>";
+		};
+		DF7EFF5829C355DE004255D9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DF42AC1729B8432F00F26E02 /* ViewController.swift */,
+				DF7EFF6829C3621A004255D9 /* TempDiary.swift */,
+				DF7EFF7629C3837B004255D9 /* HumidDiary.swift */,
+				DF7EFF6C29C37D97004255D9 /* LuxDiary.swift */,
+				DFC50AA829D2C8AC00DFCB05 /* ColorController.swift */,
+				DFCE090329FAB3EC00524161 /* ImageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DF7EFF5929C355E9004255D9 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				DF42AC1929B8432F00F26E02 /* Main.storyboard */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		DF7EFF5A29C355F8004255D9 /* Model  */ = {
+			isa = PBXGroup;
+			children = (
+				DF7EFF5B29C35660004255D9 /* MQTTDelegate.swift */,
+				DF7EFF6529C358E7004255D9 /* Temp */,
+				DF7EFF6E29C37EA9004255D9 /* Humid */,
+				DF7EFF7829C385A6004255D9 /* Lux */,
+			);
+			path = "Model ";
+			sourceTree = "<group>";
+		};
+		DF7EFF6529C358E7004255D9 /* Temp */ = {
+			isa = PBXGroup;
+			children = (
+				DF7EFF6329C358DB004255D9 /* TempManager.swift */,
+				DF7EFF5F29C358A4004255D9 /* TempData.swift */,
+				DF7EFF6129C358B0004255D9 /* TempModel.swift */,
+			);
+			path = Temp;
+			sourceTree = "<group>";
+		};
+		DF7EFF6E29C37EA9004255D9 /* Humid */ = {
+			isa = PBXGroup;
+			children = (
+				DF7EFF6F29C37EC3004255D9 /* HumidManager.swift */,
+				DF7EFF7129C37ED7004255D9 /* HumidData.swift */,
+				DF7EFF7329C37EE3004255D9 /* HumidModel.swift */,
+			);
+			path = Humid;
+			sourceTree = "<group>";
+		};
+		DF7EFF7829C385A6004255D9 /* Lux */ = {
+			isa = PBXGroup;
+			children = (
+				DF7EFF7929C385D6004255D9 /* LuxManager.swift */,
+				DF7EFF7B29C385E4004255D9 /* LuxData.swift */,
+				DF7EFF7D29C385EC004255D9 /* LuxModel.swift */,
+			);
+			path = Lux;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF42AC2429B8432F00F26E02 /* Build configuration list for PBXNativeTarget "IOTProject" */;
 			buildPhases = (
+				08E60B86F8DA874432572395 /* [CP] Check Pods Manifest.lock */,
 				DF42AC0C29B8432F00F26E02 /* Sources */,
 				DF42AC0D29B8432F00F26E02 /* Frameworks */,
 				DF42AC0E29B8432F00F26E02 /* Resources */,
+				A080D344D33A81945452FC09 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +252,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08E60B86F8DA874432572395 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IOTProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A080D344D33A81945452FC09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IOTProject/Pods-IOTProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IOTProject/Pods-IOTProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IOTProject/Pods-IOTProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF42AC0C29B8432F00F26E02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DF42AC1829B8432F00F26E02 /* ViewController.swift in Sources */,
+				DF7EFF6229C358B0004255D9 /* TempModel.swift in Sources */,
+				DF7EFF6D29C37D97004255D9 /* LuxDiary.swift in Sources */,
+				DF7EFF7E29C385EC004255D9 /* LuxModel.swift in Sources */,
 				DF42AC1429B8432F00F26E02 /* AppDelegate.swift in Sources */,
+				DF7EFF5C29C35660004255D9 /* MQTTDelegate.swift in Sources */,
+				DF7EFF6029C358A4004255D9 /* TempData.swift in Sources */,
+				DF7EFF7029C37EC3004255D9 /* HumidManager.swift in Sources */,
+				DF7EFF7A29C385D6004255D9 /* LuxManager.swift in Sources */,
 				DF42AC1629B8432F00F26E02 /* SceneDelegate.swift in Sources */,
+				DFCE090429FAB3EC00524161 /* ImageViewController.swift in Sources */,
+				DF7EFF7C29C385E4004255D9 /* LuxData.swift in Sources */,
+				DF7EFF7429C37EE3004255D9 /* HumidModel.swift in Sources */,
+				DF7EFF6929C3621A004255D9 /* TempDiary.swift in Sources */,
+				DF7EFF6429C358DB004255D9 /* TempManager.swift in Sources */,
+				DFC50AA929D2C8AC00DFCB05 /* ColorController.swift in Sources */,
+				DF7EFF7729C3837B004255D9 /* HumidDiary.swift in Sources */,
+				DF7EFF7229C37ED7004255D9 /* HumidData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +458,7 @@
 		};
 		DF42AC2529B8432F00F26E02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0BF5C8E0235F0ADE071C26F /* Pods-IOTProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +487,7 @@
 		};
 		DF42AC2629B8432F00F26E02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F933593C9D704E27A42902B /* Pods-IOTProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
