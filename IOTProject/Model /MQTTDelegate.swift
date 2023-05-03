@@ -16,7 +16,7 @@ extension ViewController{
         let port = UInt16(1883)
         mqttClientManager = CocoaMQTT(clientID: clientID, host: host, port: port)
         mqttClientManager.username = "HCMUT_IOT"
-        mqttClientManager.password = "aio_DRXz84eTZEZXJWdPq1VFcgmusD9d"
+        mqttClientManager.password = "aio_NlfR25oHY2hq26KGBVMhhACBK1MP"
         mqttClientManager.keepAlive = 60
         mqttClientManager.delegate = self
         mqttClientManager.connect()

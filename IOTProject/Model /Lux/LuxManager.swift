@@ -62,7 +62,7 @@ class LuxBrain {
                 let hour = (Int(str.prefix(2))! + 7)%24
                 value[count-1-i][0] = String(hour) + str.suffix(6)
             }
-            var decodedString = "Temp_sensor diary:\n"
+            var decodedString = "Lux_sensor diary:\n"
             for i in 0...count-1{
                 if value[count-1-i][0].count > 8{
                     break
